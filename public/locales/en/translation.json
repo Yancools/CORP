@@ -1,0 +1,21 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "text": "Profile"
+        },
+        
+        {
+            "id": 2,
+            "text": "Settings"
+        }
+    ],
+    
+    "profile": {
+        "title": "Profile"
+    },
+
+    "settings": {
+        "title": "Settings"
+    }
+}
