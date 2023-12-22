@@ -1,0 +1,32 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "text": "Profile"
+        },
+        
+        {
+            "id": 2,
+            "text": "Settings"
+        }
+    ],
+    
+    "profile": {
+        "title": "Profile"
+    },
+
+    "settings": {
+        "title": "Settings",
+        "switch": [
+            {
+                "id": 1,
+                "text": "Change language russian/english"
+            },
+            
+            {
+                "id": 2,
+                "text": "Change theme light/dark"
+            }
+        ]
+    }
+}

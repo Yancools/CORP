@@ -1,0 +1,49 @@
+:root {
+    --black: #000;
+    --dark--purpleLight: #4c3f91;
+    --dark--purpleDark: #2c2453;
+    --text--dark:#161229;
+    --white: #FFF;
+    --gray: gray;
+}
+
+.layout {
+    height: 100%;
+    width: 100%;
+}
+.layout.dark{
+    background-color: var(--dark--purpleLight);
+    color: var(--white);
+}
+.layout.light{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.layout.light button {
+    color: var(--black);
+}
+.layout.dark button {
+    color: var(--white);
+    background-color: var(--dark--purpleDark);
+
+}
+.layout.light button:hover, 
+.layout.dark button:hover {
+    color: var(--gray);
+}
+.layout input {
+    background-color: var(--dark--purpleDark);
+    color: var(--white);
+}
+.layout button span,
+.layout button::after,
+.layout button::before {
+    background-color: var(--dark--purpleDark);
+}
+
+.layout button:hover span,
+.layout button:hover:after,
+.layout button:hover:before {
+    background-color: var(--white);
+} 
